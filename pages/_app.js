@@ -1,8 +1,8 @@
 import '@/css/tailwind.css'
 import '@/css/prism.css'
 import 'katex/dist/katex.css'
- import '@/css/docsearch.css' // Uncomment if using algolia docsearch
- import '@docsearch/css' // Uncomment if using algolia docsearch
+import '@/css/docsearch.css'
+import '@docsearch/css'
 
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
