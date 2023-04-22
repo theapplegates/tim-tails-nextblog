@@ -73,6 +73,10 @@ module.exports = () => {
         },
       ]
     },
+    images: {
+       domains: ['applegate-paul.mo.cloudinary.net'],
+       formats: ['image/avif', 'image/webp']
+     },
     webpack: (config, options) => {
       config.module.rules.push({
         test: /\.svg$/,
